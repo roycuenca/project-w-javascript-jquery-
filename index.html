@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Proyecto con JS</title>
+                <!-- Styles css -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <link id="theme" rel="stylesheet" href="css/green.css"/>
+                <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>              
+                <!-- SILDER -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+                <!--My Scrips-->
+    <script type="text/javascript" src="js/main.js"></script>
+                <!-- MomentJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script>            
+</head>
+<body>
+    <div id="selector-theme">
+        <div id="to-green"></div>
+        <div id="to-red"></div>
+        <div id="to-blue"></div>
+    </div>
+    <section id="global">
+                    <!-- CABECERA -->
+        <header>
+            <div id="logo">
+                PROYECTO JS
+            </div>
+            <div class="clearfix"></div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li> 
+                    <li><a href="reloj.html">Reloj</a></li>
+                    <li><a href="about.html">Sobre Mi</a></li>
+                    <li><a href="contact.html">Contactos</a></li>
+                </ul>
+            </nav>
+        </header>
+                    <!-- SILDER -->
+        <div id="slider">
+            <div class="bxslider">
+                <div><img src="img/hojas.jpg" title="Hojas"></div>
+                <div><img src="img/rojo.jpg" title=""></div>
+                <div><img src="img/cielo.jpg" title="Happy trees"></div>
+            </div>
+        </div>
+
+                    <!-- CONTENIDO -->
+
+        <section id="content">
+            <div id="posts">
+                    <!-- Div de los posts -->
+            </div>
+            <aside id="sidebar">
+                <div id="about">
+                    <h4><span>¿Quien Soy?</span></h4>
+                    <img src="../proyecto-js/img/caracol.jpg">
+                    <p>There are many variations of passages of Lorem Ipsum available,
+                        but the majority have suffered alteration in some form.
+                    </p>
+                    <div id="login">
+                        <h4><span>Identificate</span></h4>
+                        <form>
+                            <label for="name">Nombre</label>
+                            <input type="text" name="name"id="form_name">
+                            <label for="email">Email</label>
+                            <input type="text" name="email">
+                            <label for="password">Contraseña</label>
+                            <input type="password" name="password">
+                            <input type="submit" value="Entrar">
+                        </form>
+                    </div>
+                </div>    
+            </aside>
+            <div class="clearfix"></div>
+        </section>    
+    </section>
+    <footer>
+        Curso JS
+        <a href="#" class="subir">Ir arriba</a>
+    </footer>
+</body>
+</html>
